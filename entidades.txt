@@ -1,0 +1,16 @@
+Entidades principales identificadas:
+
+Anime (representado por anime_id, Name, English name, Other name)
+Géneros (columna Genres
+Estudios (columna Studios)
+Productoras (columna Producers)
+Licenciatarios (columna Licensors)
+Temporadas (columna Premiered)
+
+Relaciones identificadas:
+
+Un anime pertenece a uno o más géneros (relación muchos-a-muchos)
+Un anime es producido por uno o más estudios (relación muchos-a-muchos)
+Un anime es producido por una o más productoras (relación muchos-a-muchos)
+Un anime es licenciado por cero o más licenciatarios (relación muchos-a-muchos)
+Un anime pertenece a una temporada específica (relación muchos-a-uno)
